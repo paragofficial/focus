@@ -12,7 +12,7 @@ class App extends Component{
       <>
       <Router>
         <Routes>
-            <Route path="/focus/"  element={<Login/>}></Route>
+            <Route path="/focus"  element={<Login/>}></Route>
             <Route path="/focus/home"  element={<Home/>}></Route>
         </Routes>
       </Router>
