@@ -55,7 +55,7 @@ class Home extends Component {
     const { items, loading, loggedOut, showLoadingBar } = this.state;
 
     if (loggedOut) {
-      return <Navigate to="/" />;
+      return <Navigate to="/focus/" />;
     }
 
     if (!loading) {

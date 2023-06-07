@@ -36,7 +36,7 @@ class Login extends Component {
     const { first, last, loggedIn } = this.state;
 
     if (loggedIn) {
-      return <Navigate to="/home" />; 
+      return <Navigate to="/focus/home" />; 
     }
 
 
